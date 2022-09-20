@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\CalculoDeCombustivel;
+use App\Models\CalculoDeCombustivel;
 
 class CombustivelController extends Controller
 {
