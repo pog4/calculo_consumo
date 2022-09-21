@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<head><!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +16,7 @@
             <div class='sucesso'>
                 <h3>O valor total do gasto será de:</h3>
                 <ul>
-                    <li><b>Gasolina:</b>R$ {{$valor}}</li>
+                    <li><b>{{$combustivel}}:</b>R$ {{$valor}}</li>
                 </ul>
             </div>
         </div>
